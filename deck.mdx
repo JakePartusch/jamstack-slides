@@ -1,0 +1,138 @@
+import { themes } from "mdx-deck";
+import gatsbyflow from "./gatsby-flow.gif";
+import jamstack from "./jamstack.png";
+import tweet from "./tweet.jpg";
+
+export const theme = themes.yellow;
+
+# Jam Sessions Pt. 1
+
+Static Site Generators
+
+---
+
+<h1>Web platform challenges</h1>
+<ul>
+  <Steps>
+    <h2>
+      <li>Performance</li>
+    </h2>
+    <h2>
+      <li>Scalability</li>
+    </h2>
+    <h2>
+      <li>Security</li>
+    </h2>
+    <h2>
+      <li>Developer Experience</li>
+    </h2>
+  </Steps>
+</ul>
+
+---
+
+## So you want to build a web app?
+
+---
+
+<h1>WordPress/Shopify/etc</h1>
+<ul>
+  <Steps>
+    <h2>❓ Performance</h2>
+    <h2>❌ Scalability</h2>
+    <h2>❌ Security</h2>
+    <h2>❌ Developer Experience</h2>
+  </Steps>
+</ul>
+
+---
+
+<h1>Traditional Web Application</h1>
+<ul>
+  <Steps>
+    <h2>❓ Performance</h2>
+    <h2>❓ Scalability</h2>
+    <h2>❓ Security</h2>
+    <h2>✅ Developer Experience</h2>
+  </Steps>
+</ul>
+
+---
+
+# Jamstack
+
+---
+
+<ul>
+  <h1>
+    <li>J — JavaScript</li>
+  </h1>
+  <Steps>
+    <h1>
+      <li>A — APIs</li>
+    </h1>
+    <h1>
+      <li>M — Markup</li>
+    </h1>
+    <h1>
+      <li>Stack</li>
+    </h1>
+  </Steps>
+</ul>
+
+---
+
+<h1>Jamstack</h1>
+<ul>
+  <Steps>
+    <h2>✅ Performance</h2>
+    <h2>✅ Scalability</h2>
+    <h2>✅ Security</h2>
+    <h2>✅ Developer Experience</h2>
+  </Steps>
+</ul>
+
+---
+
+# Jamstack Principles
+
+- Pre-render as much as possible (HTML > JavaScript)
+- CDNs, CDNs, CDNs
+- Reduced attack surface
+
+---
+
+# Static Site Generators
+
+- Pre-render all the things
+- Build often, deploy often
+  - Automated Builds
+  - Atomic Deploys
+  - Instant Cache invalidation
+- Optionally
+  - Client-side hydration
+
+---
+
+<a target="_blank" href="https://setyourwatchby.netlify.app/">
+  <img src={tweet} />
+</a>
+
+---
+
+<img src={jamstack} />
+
+---
+
+# Gatsby
+
+- Full-featured SSG (Static Site Generator)
+- Templating with React
+
+---
+
+<img src={gatsbyflow} style={{ height: "600px" }} />
+
+---
+
+# Live Code and Stuff
