@@ -113,6 +113,15 @@ Static Site Generators
 
 ---
 
+# Jamstack Principles
+
+- Pre-render as much as possible (HTML > JavaScript)
+- CDNs, CDNs, CDNs
+- Auto-scaling microservices
+- Reduced attack surface
+
+---
+
 <h1>Jamstack</h1>
 <ul>
   <Steps>
@@ -125,23 +134,14 @@ Static Site Generators
 
 ---
 
-# Jamstack Principles
-
-- Pre-render as much as possible (HTML > JavaScript)
-- CDNs, CDNs, CDNs
-- Reduced attack surface
-
----
-
 # Static Site Generators
 
-- Pre-render all the things
+- Pull data from various sources at build time
+- Pre-render pages (also at build time)
 - Build often, deploy often
-  - Automated Builds
-  - Atomic Deploys
-  - Instant Cache invalidation
-- Optionally
-  - Client-side hydration
+  - Automated builds (via build hooks)
+  - Atomic deploys
+  - Instant cache invalidation
 
 ---
 
@@ -157,8 +157,11 @@ Static Site Generators
 
 # Gatsby
 
-- Full-featured SSG (Static Site Generator)
+- Full-featured static site generator
 - Templating with React
+- Client-side hydration
+- Internal GraphQL data layer
+- Rich plugin ecosystem
 
 ---
 
